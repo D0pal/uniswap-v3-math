@@ -11,7 +11,7 @@ keywords = ["uniswapV3", "math"]
 exclude = ["target/*", ".github/*", ".gitignore", "Uniswap/*"]
 
 [dependencies]
-ethers = { git = "https://github.com/gakonst/ethers-rs.git", rev = "398c06d", default-features = false, features = ["abigen"] }
+ethers = { git = "https://github.com/D0pal/ethers-rs.git" , rev = "7b7c623", default-features = false, features = ["abigen"] }
 eyre = "0.6.8"
 ruint = "1.7.0"
 thiserror = "1.0.38"
